@@ -33,7 +33,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - name: Setup PNPM
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v5
         with:
           version: 8
           run_install: true
